@@ -70,16 +70,15 @@ else:
             print("You win.")
         else:
             print("You lose.")
-    if person_choice == 1:
+    elif person_choice == 1:
         if computer_choice == 0:
             print("You win.")
         else:
             print("You lose.")
-    if person_choice == 2:
+    elif person_choice == 2:
         if computer_choice == 1:
             print("You win.")
         else:
             print("You lose.")
-
     else:
         print("You have entered an invalid input. You lose.")

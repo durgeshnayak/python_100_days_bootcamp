@@ -81,3 +81,5 @@ else:
         else:
             print("You lose.")
 
+    else:
+        print("You have entered an invalid input. You lose.")
